@@ -1,0 +1,6 @@
+{
+    "type": "https://www.rfc-editor.org/rfc/rfc9110.html#name-status-codes",
+    "status": "Success",
+    "code": 201,
+    "message": "User registered successfully. We have sent you an account activation link on your registered email. Kindly follow the instructions in the email to activate your account."
+}
