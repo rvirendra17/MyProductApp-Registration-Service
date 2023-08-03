@@ -2,6 +2,9 @@ package com.in.myproduct.registrationservice.models.response;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import lombok.Data;
+
+@Data
 public class RegistrationResponse {
 
 	@JsonProperty("type")
