@@ -21,23 +21,29 @@ public class RegistrationDto {
 	@NotNull
 	private String email;
 	
-	@JsonProperty("email")
+	@JsonProperty("mobile_number")
 	@Pattern(regexp = "^\\d{10}$")
 	@NotBlank
 	private String mobileNumber;
 	
+	@JsonProperty("password")
 	@NotBlank
 	private String password;
 	
+	@JsonProperty("confirm_password")
 	@NotBlank
 	private String confirmPassowrd;
 	
+	@JsonProperty("dob")
 	@NotBlank
 	private String dob;
 	
+	
+	@JsonProperty("profile_pic")
 	@NotBlank
 	private String profilePic;
 	
+	@JsonProperty("aadhaar")
 	@Pattern(regexp = "^\\d{12}$")
 	@NotBlank
 	private String aadhaar;
